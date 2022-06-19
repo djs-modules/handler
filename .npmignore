@@ -1,0 +1,10 @@
+.github
+.gitignore
+.vscode
+.jsconfig.json
+.babelrc.json
+node_modules/
+dist/
+examples/
+scripts/
+tests/
