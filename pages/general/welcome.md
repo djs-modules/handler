@@ -20,7 +20,7 @@
 ## Initialization
 
 <strong>To initializate module, you need to write this code in bot main file.</strong> <br>
-<strong>Or you can view our [examples folder](https://github.com/djs-modules/handler/examples).</strong> <br>
+<strong>Or you can view our [example](https://github.com/djs-modules/handler/tree/master/examples) of using this module.</strong> <br>
 
 ```js
 const { Client } = require("discord.js");
