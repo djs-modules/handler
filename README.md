@@ -5,9 +5,10 @@
 
 ## Installation
 
-<strong>Please note: NodeJS v16.6 or above required for this module!</strong>
+<strong>IMPORTANT: NodeJS v16.6 or above required for this module!</strong>
 
-<code>$ npm i @djs-modules/handler</code>
+<code>npm i @djs-modules/handler</code> <br />
+<code>yarn add @djs-modules/handler</code>
 
 ## Features
 
@@ -23,12 +24,13 @@
 
 ```js
 const { Client } = require("discord.js");
-const { Handler } = require("@djs-modules/discordjs-handler");
+const { Handler } = require("@djs-modules/handler");
 
 const client = new Client({
   intents: ["GUILDS", "GUILD_MESSAGES"],
 });
-const handler = new Handler({
+
+new Handler({
   commandsDir: `./commands`,
   slashCommandsDir: `./slashCommands`,
   eventsDir: `./events`,
