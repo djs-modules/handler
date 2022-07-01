@@ -2,5 +2,6 @@
   "window.title": "${activeEditorShort} | @djs-handler/handler",
   "typescript.preferences.importModuleSpecifier": "relative",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2
 }
