@@ -45,9 +45,9 @@ export class SlashCommand implements SlashCommandStruct {
      * Slash Command Type
      *
      * @type {ApplicationCommandTypes}
-     * @default {"CHAT_INPUT"}
+     * @default {1}
      */
-    this.type = options?.type || "CHAT_INPUT";
+    this.type = options?.type || ApplicationCommandType.ChatInput;
 
     /**
      * Slash Command Options

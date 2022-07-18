@@ -1,5 +1,9 @@
-import { ApplicationCommandData, Client, Collection } from "discord.js";
-import { ApplicationCommandTypes } from "discord.js/typings/enums"; // Unused, but needed for typescript to know about it.
+import {
+  ApplicationCommandData,
+  Client,
+  Collection,
+  ApplicationCommandType, // Unused, but needed for typescript to know about it.
+} from "discord.js";
 import { SlashCommand } from "./SlashCommand";
 import { Options } from "../interfaces/Options";
 import { Command } from "./Command";
@@ -205,10 +209,9 @@ export class Handler {
       const commands: ApplicationCommandData[] = [];
       this.slashCommands.forEach((cmd) => {
         commands.push({
+          type: cmd?.type,
           name: cmd.name,
           description: cmd.description,
-          type: cmd?.type,
-          defaultPermission: cmd?.defaultPermission,
           options: cmd?.options,
         });
       });
@@ -250,8 +253,8 @@ export class Handler {
  * @prop {boolean} [guildOnly=false] Can Command be used only in Guilds
  * @prop {boolean} [dmOnly=false] Can Command be used only in DMs
  * @prop {boolean} [ownerOnly=false] Command for Owners Only
- * @prop {PermissionString} [userPerms] Required Permissions for User
- * @prop {PermissionString} [botPerms] Required Permissions for Bot
+ * @prop {PermissionsString} [userPerms] Required Permissions for User
+ * @prop {PermissionsString} [botPerms] Required Permissions for Bot
  */
 
 /**
@@ -277,8 +280,8 @@ export class Handler {
 /**
  * Shash Command Types
  *
- * * (1) CHAT_INPUT
- * * (2) USER
- * * (3) MESSAGE
- * @typedef {ApplicationCommandTypes} SlashCommandTypes
+ * * (1) ChatInput
+ * * (2) User
+ * * (3) Message
+ * @typedef {ApplicationCommandType} SlashCommandTypes
  */

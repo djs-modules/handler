@@ -1,4 +1,4 @@
-import { Client, Message, PermissionString } from "discord.js";
+import { Client, Message, PermissionsString } from "discord.js";
 import { CommandStruct } from "../interfaces/Command";
 
 /**
@@ -20,8 +20,8 @@ export class Command implements CommandStruct {
   public dmOnly?: boolean;
   public ownerOnly?: boolean;
 
-  public userPerms?: PermissionString[];
-  public botPerms?: PermissionString[];
+  public userPerms?: PermissionsString[];
+  public botPerms?: PermissionsString[];
 
   constructor(options: CommandStruct) {
     /**
@@ -105,7 +105,7 @@ export class Command implements CommandStruct {
     /**
      * Required User Permissions
      *
-     * @type {PermissionString[]}
+     * @type {PermissionsString[]}
      * @default {[]}
      */
     this.userPerms = options?.userPerms || [];
@@ -113,7 +113,7 @@ export class Command implements CommandStruct {
     /**
      * Required Bot Permissions
      *
-     * @type {PermissionString[]}
+     * @type {PermissionsString[]}
      * @default {[]}
      */
     this.botPerms = options?.botPerms || [];

@@ -1,6 +1,6 @@
-import { Client } from "discord.js";
 import { EventStruct } from "../interfaces/Event";
 import { Handler } from "./Handler";
+import { Client } from "discord.js";
 
 /**
  * Class that allows You to create event.

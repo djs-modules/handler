@@ -1,4 +1,4 @@
-import { PermissionString } from "discord.js";
+import { PermissionsString } from "discord.js";
 
 export interface CommandStruct {
   name: string;
@@ -13,6 +13,6 @@ export interface CommandStruct {
   dmOnly?: boolean;
   ownerOnly?: boolean;
 
-  userPerms?: PermissionString[];
-  botPerms?: PermissionString[];
+  userPerms?: PermissionsString[];
+  botPerms?: PermissionsString[];
 }
