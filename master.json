@@ -2,7 +2,7 @@
  "meta": {
   "generator": "0.11.1",
   "format": 22,
-  "date": 1656654535534
+  "date": 1658144297287
  },
  "custom": {
   "general": {
@@ -197,7 +197,7 @@
         "<"
        ],
        [
-        "PermissionString",
+        "PermissionsString",
         ">"
        ]
       ]
@@ -218,7 +218,7 @@
         "<"
        ],
        [
-        "PermissionString",
+        "PermissionsString",
         ">"
        ]
       ]
@@ -458,7 +458,7 @@
       ]
      ],
      "meta": {
-      "line": 37,
+      "line": 41,
       "file": "Handler.ts",
       "path": "src/classes"
      }
@@ -474,7 +474,7 @@
       ]
      ],
      "meta": {
-      "line": 43,
+      "line": 47,
       "file": "Handler.ts",
       "path": "src/classes"
      }
@@ -499,7 +499,7 @@
       ]
      ],
      "meta": {
-      "line": 49,
+      "line": 53,
       "file": "Handler.ts",
       "path": "src/classes"
      }
@@ -524,7 +524,7 @@
       ]
      ],
      "meta": {
-      "line": 55,
+      "line": 59,
       "file": "Handler.ts",
       "path": "src/classes"
      }
@@ -549,7 +549,7 @@
       ]
      ],
      "meta": {
-      "line": 61,
+      "line": 65,
       "file": "Handler.ts",
       "path": "src/classes"
      }
@@ -573,7 +573,7 @@
       ]
      ],
      "meta": {
-      "line": 83,
+      "line": 87,
       "file": "Handler.ts",
       "path": "src/classes"
      }
@@ -594,7 +594,7 @@
       ]
      ],
      "meta": {
-      "line": 107,
+      "line": 111,
       "file": "Handler.ts",
       "path": "src/classes"
      }
@@ -615,7 +615,7 @@
       ]
      ],
      "meta": {
-      "line": 135,
+      "line": 139,
       "file": "Handler.ts",
       "path": "src/classes"
      }
@@ -636,7 +636,7 @@
       ]
      ],
      "meta": {
-      "line": 163,
+      "line": 167,
       "file": "Handler.ts",
       "path": "src/classes"
      }
@@ -662,14 +662,14 @@
       ]
      ],
      "meta": {
-      "line": 194,
+      "line": 198,
       "file": "Handler.ts",
       "path": "src/classes"
      }
     }
    ],
    "meta": {
-    "line": 24,
+    "line": 28,
     "file": "Handler.ts",
     "path": "src/classes"
    }
@@ -927,7 +927,7 @@
     }
    ],
    "meta": {
-    "line": 228,
+    "line": 231,
     "file": "Handler.ts",
     "path": "src/classes"
    }
@@ -1080,7 +1080,7 @@
      "type": [
       [
        [
-        "PermissionString"
+        "PermissionsString"
        ]
       ]
      ]
@@ -1092,14 +1092,14 @@
      "type": [
       [
        [
-        "PermissionString"
+        "PermissionsString"
        ]
       ]
      ]
     }
    ],
    "meta": {
-    "line": 239,
+    "line": 242,
     "file": "Handler.ts",
     "path": "src/classes"
    }
@@ -1193,7 +1193,7 @@
     }
    ],
    "meta": {
-    "line": 257,
+    "line": 260,
     "file": "Handler.ts",
     "path": "src/classes"
    }
@@ -1234,23 +1234,23 @@
     }
    ],
    "meta": {
-    "line": 269,
+    "line": 272,
     "file": "Handler.ts",
     "path": "src/classes"
    }
   },
   {
    "name": "SlashCommandTypes",
-   "description": "Shash Command Types\n\n* (1) CHAT_INPUT\n* (2) USER\n* (3) MESSAGE",
+   "description": "Shash Command Types\n\n* (1) ChatInput\n* (2) User\n* (3) Message",
    "type": [
     [
      [
-      "ApplicationCommandTypes"
+      "ApplicationCommandType"
      ]
     ]
    ],
    "meta": {
-    "line": 277,
+    "line": 280,
     "file": "Handler.ts",
     "path": "src/classes"
    }
