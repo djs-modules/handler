@@ -11,5 +11,3 @@ export interface SlashCommandStruct {
   options?: ApplicationCommandOptionData[];
   defaultPermission?: boolean;
 }
-
-export type SlashCommandTypes = ApplicationCommandType;
