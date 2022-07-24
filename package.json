@@ -1,6 +1,6 @@
 {
   "name": "@djs-modules/handler",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "\"@djs-modules/handler\" is a module that allows you to make organization of commands/events in your Discord bot.",
   "main": "dist/index.js",
   "types": "typings/index.d.ts",
