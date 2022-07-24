@@ -41,9 +41,9 @@ new Handler({
 
 ## Links
 
-<b>Authors: [djs-modules](https://www.npmjs.com/~djs-modules), [xyligan-gp](https://www.npmjs.com/~xyligan-gp)<br>
-<b>Discord Tags: [WhyMe#1126](https://discord.com/users/974064528289562644), [♡ xүℓ[ι]gαη4εg ♡#9457](https://discord.com/users/533347075463577640)<br>
-<b>NodeJS: [Click](https://www.nodejs.org/)<br>
-<b>TypeScript: [Click](https://www.typescriptlang.org)<br>
-<b>Support Server: [Click](https://discord.gg/zsTgXs24k2)<br>
-<b>Website: [Click](https://djs-modules.js.org/)</b>
+<strong>Authors: [djs-modules](https://www.npmjs.com/~djs-modules), [xyligan-gp](https://www.npmjs.com/~xyligan-gp)</strong> <br>
+<strong>Discord Tags: [WhyMe#1126](https://discord.com/users/974064528289562644), [♡ xүℓ[ι]gαη4εg ♡#9457](https://discord.com/users/533347075463577640)</strong> <br>
+<strong>NodeJS: [Click](https://www.nodejs.org/)</strong> <br>
+<strong>TypeScript: [Click](https://www.typescriptlang.org)</strong> <br>
+<strong>Support Server: [Click](https://discord.gg/zsTgXs24k2)</strong> <br>
+<strong>Documentation: [Click](https://djs-modules.js.org/)</strong>
