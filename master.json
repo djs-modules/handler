@@ -2,7 +2,7 @@
  "meta": {
   "generator": "0.11.1",
   "format": 22,
-  "date": 1658685266607
+  "date": 1658692680293
  },
  "custom": {
   "general": {
@@ -732,7 +732,7 @@
      "type": [
       [
        [
-        "ApplicationCommandTypes"
+        "ApplicationCommandType"
        ]
       ]
      ],
